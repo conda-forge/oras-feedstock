@@ -15,16 +15,12 @@ build:
   script:
     - mkdir -p $PREFIX/bin                                 # [unix]
 
-    - make build-mac-amd64                                 # [osx and x86_64]
+    - make build-mac                                       # [osx]
     - mv bin/darwin/amd64/oras $PREFIX/bin/oras            # [osx and x86_64]
-
-    - make build-mac-arm64                                 # [osx and aarch64]
     - mv bin/darwin/arm64/oras $PREFIX/bin/oras            # [osx and aarch64]
 
-    - make build-linux-amd64                               # [linux and x86_64]
+    - make build-linux                                     # [linux and x86_64]
     - mv bin/linux/amd64/oras $PREFIX/bin/oras             # [linux and x86_64]
-
-    - make build-linux-arm64                               # [linux and aarch64]
     - mv bin/linux/arm64/oras $PREFIX/bin/oras             # [linux and aarch64]
 
     - bash $RECIPE_DIR/collect_licenses.sh                 # [unix]
