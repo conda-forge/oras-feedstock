@@ -1,5 +1,5 @@
 {% set name = "oras" %}
-{% set version = "0.16.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/oras-project/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 37bac099dd72de50cf2405dd092908b1039db142faf81ab1c9d22ced2e0d1ea6
+  sha256: c0750d1837c449232ad8459dea55a7c660d822ce2d17a8a7882bfc3518b01646
 
 build:
   number: 0
