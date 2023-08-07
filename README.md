@@ -1,11 +1,11 @@
-About oras
-==========
+About oras-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/oras-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/oras-project/oras
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/oras-feedstock/blob/main/LICENSE.txt)
 
 Summary: ORAS project provides a way to push and pull OCI Artifacts to and from OCI Registries.
 
