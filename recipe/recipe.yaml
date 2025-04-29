@@ -43,8 +43,8 @@ build:
 
 requirements:
   build:
-    - ${{ compiler("go") }}
-    - {if: win, then: m2-make, else: "make"}
+    - ${{ compiler("go-nocgo") }}
+    - {if: win, then: m2-make, else: make}
     - go-licenses
 
 tests:
