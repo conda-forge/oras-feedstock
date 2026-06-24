@@ -179,5 +179,6 @@ Feedstock Maintainers
 =====================
 
 * [@borchero](https://github.com/borchero/)
+* [@janjagusch](https://github.com/janjagusch/)
 * [@wolfv](https://github.com/wolfv/)
 
