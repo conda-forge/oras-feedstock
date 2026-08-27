@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: oras
-  version: "1.3.3"
+  version: "1.3.4"
 
 package:
   name: ${{ name }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/oras-project/${{ name }}/archive/v${{ version }}.tar.gz
-  sha256: 77170b1c2af19c4d9e0125c98b0709764534b9080de60b94fb3a2952bdce3ebf
+  sha256: 0967062b09d82c902e7f6bdd22fc6dd4577811bf46ba63dab8791ff047c55392
 
 build:
   number: 0
